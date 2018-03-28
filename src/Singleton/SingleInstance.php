@@ -11,7 +11,7 @@
  * 象获取这些配置信息。这种方式简化了在复杂环境下的配置管理。
  *
  */
-namespace ShWang\DesignPattern;
+namespace ShWang\DesignPattern\Singleton;
 
 class SingleInstance
 {

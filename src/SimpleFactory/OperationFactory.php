@@ -8,10 +8,10 @@
  * 简单工厂模式是属于创建型模式，又叫做静态工厂方法（Static Factory Method）模式。简单工厂模式是由一个工厂对象决定创建出哪一种产品类的实例。
  */
 
-namespace ShWang\DesignPattern;
+namespace ShWang\DesignPattern\SimpleFactory;
 
 
-class OperationSimpleFactory
+class OperationFactory
 {
     public static function createOperation ($operate) {
         $opt = null;
